@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1054]C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\Bin\Debug\NUnitExtension.IterativeTest.Sample.dll</TopNode>
+  <SelectedNode>[0-1054]C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\Bin\Debug\NUnitExtension.IterativeTest.Sample.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1054]C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\Bin\Debug\NUnitExtension.IterativeTest.Sample.dll" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1055]NUnitExtension" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1056]NUnitExtension.IterativeTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1057]NUnitExtension.IterativeTest.Sample" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1000]NUnitExtension.IterativeTest.Sample.IterativeTestSample" Expanded="true">
+                      <Nodes>
+                        <Node UniqueName="[0-1001]FileNameTest">
+                          <Nodes>
+                            <Node UniqueName="[0-1002]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest(C:\test\test1.xml)" />
+                            <Node UniqueName="[0-1003]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest(C:\test\test2.xml)" />
+                            <Node UniqueName="[0-1004]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest(C:\test\test3.xml)" />
+                          </Nodes>
+                        </Node>
+                        <Node UniqueName="[0-1005]FileNameTest2" Expanded="true">
+                          <Nodes>
+                            <Node UniqueName="[0-1006]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test1.xml, 1)" />
+                            <Node UniqueName="[0-1007]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test1.xml, 2)" />
+                            <Node UniqueName="[0-1008]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test1.xml, 3)" />
+                            <Node UniqueName="[0-1009]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test1.xml, 4)" />
+                            <Node UniqueName="[0-1010]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test1.xml, 5)" />
+                            <Node UniqueName="[0-1011]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test2.xml, 1)" />
+                            <Node UniqueName="[0-1012]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test2.xml, 2)" />
+                            <Node UniqueName="[0-1013]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test2.xml, 3)" />
+                            <Node UniqueName="[0-1014]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test2.xml, 4)" />
+                            <Node UniqueName="[0-1015]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test2.xml, 5)" />
+                            <Node UniqueName="[0-1016]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test3.xml, 1)" />
+                            <Node UniqueName="[0-1017]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test3.xml, 2)" />
+                            <Node UniqueName="[0-1018]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test3.xml, 3)" />
+                            <Node UniqueName="[0-1019]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test3.xml, 4)" />
+                            <Node UniqueName="[0-1020]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest2(C:\test\test3.xml, 5)" />
+                          </Nodes>
+                        </Node>
+                        <Node UniqueName="[0-1021]FileNameTest3" Expanded="true">
+                          <Nodes>
+                            <Node UniqueName="[0-1022]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test1.xml, 1, 1)" />
+                            <Node UniqueName="[0-1023]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test1.xml, 2, 1)" />
+                            <Node UniqueName="[0-1024]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test1.xml, 3, 1)" />
+                            <Node UniqueName="[0-1025]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test1.xml, 4, 1)" />
+                            <Node UniqueName="[0-1026]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test1.xml, 5, 1)" />
+                            <Node UniqueName="[0-1027]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test2.xml, 1, 1)" />
+                            <Node UniqueName="[0-1028]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test2.xml, 2, 1)" />
+                            <Node UniqueName="[0-1029]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test2.xml, 3, 1)" />
+                            <Node UniqueName="[0-1030]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test2.xml, 4, 1)" />
+                            <Node UniqueName="[0-1031]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test2.xml, 5, 1)" />
+                            <Node UniqueName="[0-1032]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test3.xml, 1, 1)" />
+                            <Node UniqueName="[0-1033]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test3.xml, 2, 1)" />
+                            <Node UniqueName="[0-1034]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test3.xml, 3, 1)" />
+                            <Node UniqueName="[0-1035]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test3.xml, 4, 1)" />
+                            <Node UniqueName="[0-1036]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest3(C:\test\test3.xml, 5, 1)" />
+                          </Nodes>
+                        </Node>
+                        <Node UniqueName="[0-1037]FileNameTest4" Expanded="true">
+                          <Nodes>
+                            <Node UniqueName="[0-1038]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test1.xml, 1, 1)" />
+                            <Node UniqueName="[0-1039]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test1.xml, 1, 2)" />
+                            <Node UniqueName="[0-1040]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test1.xml, 1, 3)" />
+                            <Node UniqueName="[0-1041]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test1.xml, 1, 4)" />
+                            <Node UniqueName="[0-1042]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test1.xml, 1, 5)" />
+                            <Node UniqueName="[0-1043]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test2.xml, 1, 1)" />
+                            <Node UniqueName="[0-1044]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test2.xml, 1, 2)" />
+                            <Node UniqueName="[0-1045]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test2.xml, 1, 3)" />
+                            <Node UniqueName="[0-1046]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test2.xml, 1, 4)" />
+                            <Node UniqueName="[0-1047]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test2.xml, 1, 5)" />
+                            <Node UniqueName="[0-1048]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test3.xml, 1, 1)" />
+                            <Node UniqueName="[0-1049]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test3.xml, 1, 2)" />
+                            <Node UniqueName="[0-1050]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test3.xml, 1, 3)" />
+                            <Node UniqueName="[0-1051]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test3.xml, 1, 4)" />
+                            <Node UniqueName="[0-1052]NUnitExtension.IterativeTest.Sample.IterativeTestSample.FileNameTest4(C:\test\test3.xml, 1, 5)" />
+                          </Nodes>
+                        </Node>
+                        <Node UniqueName="[0-1053]NUnitExtension.IterativeTest.Sample.IterativeTestSample.RegularTest" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

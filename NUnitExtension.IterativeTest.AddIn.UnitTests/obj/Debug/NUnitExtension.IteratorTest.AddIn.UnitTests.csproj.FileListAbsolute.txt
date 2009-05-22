@@ -1,0 +1,54 @@
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.interfaces.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\Rhino.Mocks.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\Rhino.Mocks.xml
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension2\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.interfaces.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IE Addons Test\trunk\IterativeTestExtension\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.interfaces.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.pdb
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\Desktop\IterativeTestExtension-2.4.8\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.core.interfaces.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Debug\NUnitExtension.IterativeTest.AddIn.pdb
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.dll
+C:\Documents and Settings\Owner\My Documents\Nitobi\IterativeTestExtension\NUnitExtension.IterativeTest.AddIn.UnitTests\obj\Debug\NUnitExtension.IterativeTest.AddIn.UnitTests.pdb

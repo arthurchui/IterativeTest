@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1003]C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.Sample.dll</TopNode>
+  <SelectedNode>[0-1004]NUnitExtension</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1003]C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.Sample.dll" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1004]NUnitExtension" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1005]NUnitExtension.IterativeTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1006]NUnitExtension.IterativeTest.Sample" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1001]NUnitExtension.IterativeTest.Sample.IterativeTestSample" Expanded="true">
+                      <Nodes>
+                        <Node UniqueName="[0-1002]NUnitExtension.IterativeTest.Sample.IterativeTestSample.RegularTest" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1000]NUnitExtension.IterativeTest.Sample.RowTestSample" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

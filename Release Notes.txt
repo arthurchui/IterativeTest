@@ -1,0 +1,12 @@
+Version 1.0.0 - (2008-01-04)
+----------------------------
+
+Initial release.
+* Data-driven tests can be marked with the [IterativeTest] attribute. It can be used 
+  to programmatically create a list of parameter values to be passed into a test. 
+  The parameter to the IterativeTestAttribute constructor is a member that returns 
+  an IEnumerable containing the objects to iterate over, calling the test with those 
+  parameters.
+* Not bullet proof, if you refer to a function that is not IEnumerable, or to a property
+  the behavior is undefined.
+* See IterativeTestSample.cs for an example of usage.

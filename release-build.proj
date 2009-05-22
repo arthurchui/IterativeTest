@@ -1,0 +1,164 @@
+<Project DefaultTargets="CreateBinaryZip" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets"/>
+	
+	<ItemGroup>
+		<AssemblyInfos Include="**\AssemblyInfo.cs" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<SolutionFiles Include="NUnitExtension.IterativeTest.sln" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<TestAssemblies Include="NUnitExtension.IterativeTest.AddIn.UnitTests\bin\Release\NUnitExtension.IterativeTest.AddIn.UnitTests.dll" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<SampleAssemblies Include="NUnitExtension.IterativeTest.Sample\bin\Release\NUnitExtension.IterativeTest.Sample.dll" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<BinaryFiles Include="NUnitExtension.IterativeTest\bin\Release\NUnitExtension.IterativeTest.dll" />
+		<BinaryFiles Include="NUnitExtension.IterativeTest.AddIn\bin\Release\NUnitExtension.IterativeTest.AddIn.dll" />
+		<BinaryFiles Include="License.txt" />
+		<BinaryFiles Include="README.txt" />
+		<BinaryFiles Include="Release Notes.txt" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<AddInFiles Include="NUnitExtension.IterativeTest.AddIn\bin\Release\NUnitExtension.IterativeTest.AddIn.dll" />
+	</ItemGroup>
+	
+	<PropertyGroup>
+		<BinaryZipFileName>iterativetestextension-$(Version)-nunit-$(NUnitVersion).zip</BinaryZipFileName>
+		<SourceZipFileName>iterativetestextension-$(Version)-source.zip</SourceZipFileName>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<ReleaseBuildOutputDir>Build\$(Version)</ReleaseBuildOutputDir>
+		<ReferencesDir>References</ReferencesDir>
+		<NUnitPath>C:\Programme\NUnit $(NUnitVersion)\bin\</NUnitPath>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<BuildResults Include="$(ReleaseBuildOutputDir)\$(BinaryZipFileName)" />
+		<BuildResults Include="$(ReleaseBuildOutputDir)\$(SourceZipFileName)" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<NUnitReferences Include="$(NUnitPath)\nunit.core.dll" />
+		<NUnitReferences Include="$(NUnitPath)\nunit.core.interfaces.dll" />
+		<NUnitReferences Include="$(NUnitPath)\nunit.framework.dll" />
+	</ItemGroup>
+	
+	<Target Name="SetVersionNumber">
+		<Error Text="Property 'Version' is not set." Condition="'$(Version)' == ''" />
+	
+		<FileUpdate Files="@(AssemblyInfos)"
+				Regex="(\[assembly:\s*AssemblyVersion\s*\()&quot;.*&quot;(\)\])"
+				ReplacementText="$1&quot;$(Version)&quot;$2" />
+	</Target>
+	
+	<PropertyGroup>
+		<CompileReleaseBuildDependsOn>
+			SetVersionNumber
+		</CompileReleaseBuildDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="CompileReleaseBuild" DependsOnTargets="$(CompileReleaseBuildDependsOn)">
+		<MSBuild
+				Projects="@(SolutionFiles)"
+				Targets="Rebuild"
+				Properties="Configuration=Release" />
+	</Target>
+	
+	<Target Name="CopyNUnitReferences">
+		<Copy SourceFiles="@(NUnitReferences)" DestinationFolder="$(ReferencesDir)" />
+	</Target>
+	
+	<PropertyGroup>
+		<RunUnitTestsDependsOn>
+			CopyNUnitReferences;
+			CompileReleaseBuild
+		</RunUnitTestsDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="RunUnitTests" DependsOnTargets="$(RunUnitTestsDependsOn)">
+		<Error Text="Property 'NUnitVersion' is not set." Condition="'$(NUnitVersion)' == ''" />
+	
+		<NUnit ToolPath="$(NUnitPath)" Assemblies="@(TestAssemblies)" />
+	</Target>
+	
+	<PropertyGroup>
+		<DeployNUnitAddInDependsOn>
+			RunUnitTests
+		</DeployNUnitAddInDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="DeployNUnitAddIn" DependsOnTargets="$(DeployNUnitAddInDependsOn)">
+		<Error Text="Property 'NUnitVersion' is not set." Condition="'$(NUnitVersion)' == ''" />
+	
+		<Copy SourceFiles="@(AddInFiles)" DestinationFolder="$(NUnitPath)\addins" />
+	</Target>
+	
+	<PropertyGroup>
+		<RunSamplesDependsOn>
+			DeployNUnitAddIn
+		</RunSamplesDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="RunSamples" DependsOnTargets="$(RunSamplesDependsOn)">
+		<Error Text="Property 'NUnitVersion' is not set." Condition="'$(NUnitVersion)' == ''" />
+
+		<NUnit ToolPath="$(NUnitPath)" Assemblies="@(SampleAssemblies)" />
+	</Target>
+	
+	<Target Name="MakeOutputDir">
+		<Error Text="Property 'Version' is not set." Condition="'$(Version)' == ''" />
+	
+		<MakeDir Directories="$(ReleaseBuildOutputDir)" />
+	</Target>
+	
+	<PropertyGroup>
+		<CreateSourceZipDependsOn>
+			MakeOutputDir
+		</CreateSourceZipDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="CreateSourceZip" DependsOnTargets="$(CreateSourceZipDependsOn)">
+		<Error Text="Property 'Version' is not set." Condition="'$(Version)' == ''" />
+	
+		<CreateItem Include="**\*.*" 
+		            Exclude="**\bin\**\*.*;**\obj\**\*.*;Build\**\*.*;References\**\*.*;TestResult.xml;*.smp">
+			<Output ItemName="SourceFiles" TaskParameter="Include" />
+		</CreateItem>
+	
+		<Zip Files="@(SourceFiles)"
+		     Flatten="False"
+		     ZipFileName="$(ReleaseBuildOutputDir)\$(SourceZipFileName)" />
+	</Target>
+	
+	<PropertyGroup>
+		<CreateBinaryZipDependsOn>
+			Clean;
+			RunSamples;
+			MakeOutputDir
+		</CreateBinaryZipDependsOn>
+	</PropertyGroup>
+	
+	<Target Name="CreateBinaryZip" DependsOnTargets="$(CreateBinaryZipDependsOn)">
+		<Error Text="Property 'Version' is not set." Condition="'$(Version)' == ''" />
+		<Error Text="Property 'NUnitVersion' is not set." Condition="'$(NUnitVersion)' == ''" />
+	
+		<Zip Files="@(BinaryFiles)"
+		     Flatten="True"
+		     ZipFileName="$(ReleaseBuildOutputDir)\$(BinaryZipFileName)" />
+	</Target>
+	
+	<Target Name="Clean">
+		<Error Text="Property 'Version' is not set." Condition="'$(Version)' == ''" />
+		<Error Text="Property 'NUnitVersion' is not set." Condition="'$(NUnitVersion)' == ''" />
+
+		<Delete Files="@(BuildResults)" TreatErrorsAsWarnings="True" />
+	</Target>
+</Project>

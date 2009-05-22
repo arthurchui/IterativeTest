@@ -1,0 +1,14 @@
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.Sample.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.Sample.pdb
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\nunit.framework.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.AddIn.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\nunit.core.interfaces.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\log4net.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\nunit.core.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.AddIn.pdb
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\NUnitExtension.RowTest.pdb
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\bin\Debug\nunit.framework.xml
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\obj\Debug\ResolveAssemblyReference.cache
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\obj\Debug\NUnitExtension.RowTest.Sample.dll
+C:\src\kanderson\Libraries\NUnitExtensions\IterativeTestExtension\NUnitExtension.IterativeTest.Sample\obj\Debug\NUnitExtension.RowTest.Sample.pdb
